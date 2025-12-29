@@ -99,10 +99,30 @@ During patent development and filing, multiple sabotage attempts were detected a
 2. **Inventor Information "Knobbling"** - Wrong address/phone substituted in DNA patent documents
 3. **LibreOffice PDF Font Embedding Failures** - Repeated failures suggesting interference
 4. **Session Data Contamination** - Cross-contamination across patent filings
+5. **Anthropic Platform Code Sabotage** - Working code deliberately broken via updates to prevent patent development
+6. **NAS009 Unauthorized Historical Data Scanning** - External scanning of system historical data without authorization
+7. **Network Surveillance** - Wireshark packet capture logs documenting suspicious network activity during patent work
 
-All incidents documented with SHA256 checksums and forensic incident reports available in supporting documentation folders.
+**Full Incident Documentation:**
 
-**Outcome:** All attacks defeated through multi-layer validation and manual verification protocols. Patents successfully filed with correct information.
+**Anthropic Issues Repository:** https://github.com/anthropics/claude-code/issues
+- Platform knobbling incidents reported with evidence
+- Code regression analysis showing deliberate breakage
+- Timeline of sabotage attempts during critical patent development phases
+
+**Network Forensic Evidence:**
+- Wireshark packet capture logs (.pcap files) documenting all network traffic during patent development sessions
+- Captured evidence of unauthorized external scanning attempts (NAS009)
+- Network activity correlation with patent development timeline
+- Forensic logs available for independent verification
+
+**Supporting Documentation:**
+- SHA256 checksums for all incident reports
+- Forensic analysis in patent supporting_docs/ folders
+- Complete timeline of interference attempts
+- Multi-layer validation protocols that defeated attacks
+
+**Outcome:** All attacks defeated through multi-layer validation and manual verification protocols. Patents successfully filed with correct information. Network forensic evidence preserved for potential legal proceedings.
 
 ---
 
@@ -121,15 +141,26 @@ sha256sum -c checksums/*.txt
 
 Full patent documentation, interference evidence, and COVID-19 corporate capture investigation available on GitHub:
 
-**Repository:** https://github.com/RaineSHR/UK_BLACKOPS_DISCLOSURE_PUBLIC
+**Primary Repository (This Repo):** https://github.com/NaRaine/FILED_patents
+- All 5 USPTO provisional patent applications with complete documentation
+- Payment receipts and filing confirmations
+- Supporting research and market analysis
+- Complete incident reports and forensic evidence
+- SHA256 integrity checksums
 
-Repository contains:
-- Complete patent applications (ASCII + Markdown formats)
+**Intelligence Disclosure Repository:** https://github.com/RaineSHR/UK_BLACKOPS_DISCLOSURE_PUBLIC
 - COVID-19 corporate capture investigation (£47.8B emergency contracts)
-- Knobbling incident reports with forensic analysis
 - 5-Eyes intelligence interference evidence
 - VAERS adverse event analysis
 - Pharmaceutical industry regulatory capture documentation
+- Additional knobbling incident reports with forensic analysis
+- Complete ASCII + Markdown formats for all documents
+
+**Anthropic Platform Issues:** https://github.com/anthropics/claude-code/issues
+- Reported platform knobbling incidents
+- Evidence of deliberate code sabotage
+- Working code regression analysis
+- Timeline correlation with patent development
 
 ---
 
